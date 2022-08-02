@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.border {
+    width: 575px;
+    border: 3px solid black;
+}
+
+.gray {
+    position: absolute;
+    border-radius: 20% 0% 20% 0%;
+    background-color: gray;
+    width: 800px;
+    height: 400px;
+    margin: 50px 50px 30px 40px;
+    overflow: auto;
+}
+
+.green {
+    position: absolute;
+    border-radius: 20% 0% 20% 0%;
+    background-color: rgb(14, 107, 99);
+    width: 760px;
+    height: 400px;
+    margin: 50px 50px 30px 60px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    width: 605px;
+    height: 300px;
+    margin: 190px 50px 80px 270px;
+    border-radius: 50px 50px 50px 50px;
+    z-index: 1;
+}
